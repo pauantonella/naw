@@ -1,0 +1,67 @@
+/* Estilo de hover para el enlace */
+.enlace-derecha:hover {
+    background-color: #bf007f20; /* Cambia el fondo de color a azul al pasar el mouse sobre él */
+    color: white; /* Cambia el color del texto a blanco al pasar el mouse sobre él */
+}
+
+
+h1 
+{
+    color:azure;
+    font-style: inherit;
+    text-size-adjust: 100;
+    text-align: center;
+    background-color: #e9b5d410;
+}
+
+p {
+    color:rgb(255, 1, 1);
+    border-radius: 50%; 
+    height: 430px; 
+    background-color: #e9b5d40d;
+    text-align: center;
+    font-style:oblique;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size:x-large;
+    color:azure(240, 255, 255, 0.101);
+    font-size: large;
+    line-height: 35px;
+ 
+    margin: 200 auto;
+    max-width: 650px;
+    max-height: 800px; /* Ajusta el valor según tus preferencias */
+    padding: 80px; /* Opcional: agrega relleno para mejorar la legibilidad */
+    transition: transform 0.3s; /* Agrega una transición suave para la transformación */
+}
+
+/* Estilo de hover para el párrafo */
+p:hover {
+    transform: scale(1.1); /* Escala el párrafo al 110% de su tamaño original */
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #818491;
+    text-align: left;
+    background-color: #FFFFFF;
+  }
+
+  /* Alinea el texto a la izquierda y establece un ancho máximo para el contenedor */
+.libro {
+    max-width: 750px; /* Ajusta el valor según tus preferencias */
+    margin: 700 auto; /* Opcional: centra el contenedor horizontalmente */
+}
+
+.texto-libro {
+    text-align: left;
+    margin: 0 auto; /* Opcional: centra el texto horizontalmente dentro del contenedor */
+    padding: 20px; /* Opcional: agrega relleno para mejorar la legibilidad */
+}
+   
